@@ -1,0 +1,50 @@
+/* Common Styles and Utilities */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    background-color: #ff8f0e10;
+}
+
+/* Centered Containers */
+header{
+    margin: 0 auto;
+    width: 75%;
+}
+
+/* Navbar Styles */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+    /* border: 1px solid black; */
+}
+
+
+
+.label-list{
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+
+}
+
+
+
+.label-list li {
+    list-style: none;
+}
+
+
+
+
+.label-list a {
+    text-decoration: none;
+    color: #424242;
+}
+
