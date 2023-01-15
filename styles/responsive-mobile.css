@@ -53,18 +53,15 @@
         align-items: center;
         justify-content: center;
     }
-
     .quick-features-info {
         width: 100%;
     }
-
     .quick-features-images {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 25px;
         width: 50%;
     }
-
     .quick-features-info {
         margin-top: 10px;
         padding-left: 0;
@@ -80,11 +77,9 @@
         flex-direction: column;
         height: 1500px;
     }
-
     .features-details-info {
         width: 100%;
     }
-
     .feature-details-image {
         display: flex;
         flex-direction: column;
@@ -93,7 +88,6 @@
         margin-top: 25px;
         width: 100%;
     }
-
     .btn-experience {
         position: static;
         margin-top: 50px;
@@ -123,8 +117,24 @@
     .logos {
         flex-direction: column;
     }
-
     .logos img {
         margin-bottom: 35px;
+    }
+
+
+
+
+
+    /* Feedback Section */
+    .feedback {
+        flex-direction: column;
+    }
+    .feedback-area{
+        width: 80%;
+    }
+    .submit-btn{
+        padding: 15px;
+        margin-left: 0px;
+        margin-top: 10px;
     }
 }
