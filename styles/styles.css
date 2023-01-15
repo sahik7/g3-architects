@@ -317,6 +317,7 @@ section {
 }
 .feedback-description{
     margin-top:10px;
+    color: #727272;
 }
 .feedback-area{
     border: none;
@@ -349,11 +350,3 @@ section {
     background-color: #FFF4E7;
     padding: 30px 0;
 }
-
-
-
-
-
-
-
-/* Responsive Layout */

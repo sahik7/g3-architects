@@ -1,16 +1,20 @@
+/* Responsive for mobile */
 @media screen and (max-width: 576px) {
 
     /* Common Styles and Utilities */
     body {
         text-align: center;
     }
+
     .normal-description {
         width: 100%;
         margin-top: 10px;
     }
+
     .section-description {
         width: 100%;
     }
+
     header {
         height: 900px;
     }
@@ -25,9 +29,11 @@
     .label-list {
         flex-direction: column;
     }
+
     .label-list {
         width: 100%;
     }
+
     .label-list li {
         margin-top: 25px;
     }
@@ -53,15 +59,18 @@
         align-items: center;
         justify-content: center;
     }
+
     .quick-features-info {
         width: 100%;
     }
+
     .quick-features-images {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 25px;
         width: 50%;
     }
+
     .quick-features-info {
         margin-top: 10px;
         padding-left: 0;
@@ -77,9 +86,11 @@
         flex-direction: column;
         height: 1500px;
     }
+
     .features-details-info {
         width: 100%;
     }
+
     .feature-details-image {
         display: flex;
         flex-direction: column;
@@ -88,6 +99,7 @@
         margin-top: 25px;
         width: 100%;
     }
+
     .btn-experience {
         position: static;
         margin-top: 50px;
@@ -117,6 +129,7 @@
     .logos {
         flex-direction: column;
     }
+
     .logos img {
         margin-bottom: 35px;
     }
@@ -129,10 +142,12 @@
     .feedback {
         flex-direction: column;
     }
-    .feedback-area{
+
+    .feedback-area {
         width: 80%;
     }
-    .submit-btn{
+
+    .submit-btn {
         padding: 15px;
         margin-left: 0px;
         margin-top: 10px;
