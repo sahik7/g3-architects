@@ -10,11 +10,32 @@ body {
     background-color: #ff8f0e10;
 }
 
+
+.btn-primary{
+    background-color:#FF900E;
+    font-size: 20px;
+    font-weight: 600;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 7px;
+    padding: 20px 25px;
+    margin-top: 30px;
+}
+
+
+
+
+
 /* Centered Containers */
 header{
     margin: 0 auto;
     width: 75%;
+    height: 1000px;
 }
+
+
+
+
 
 /* Navbar Styles */
 .navbar{
@@ -26,7 +47,6 @@ header{
 }
 
 
-
 .label-list{
     display: flex;
     width: 300px;
@@ -35,12 +55,9 @@ header{
 }
 
 
-
 .label-list li {
     list-style: none;
 }
-
-
 
 
 .label-list a {
@@ -48,3 +65,38 @@ header{
     color: #424242;
 }
 
+
+
+/* Banner */
+.banner{
+    text-align: center;
+    /* border: 1px solid black; */
+ }
+
+
+
+.banner-title{
+    font-size: 64px;
+    font-weight: 700;
+}
+
+
+
+.banner-description{
+    margin-top:25px;
+    font-size:16px;
+    font-weight: 400;
+    color: #727272;
+}
+
+
+
+.banner-image{
+    margin-top: 50px;
+}
+
+
+
+.banner-image img{
+    width: 100%;
+}
