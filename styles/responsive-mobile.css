@@ -1,0 +1,130 @@
+@media screen and (max-width: 576px) {
+
+    /* Common Styles and Utilities */
+    body {
+        text-align: center;
+    }
+    .normal-description {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .section-description {
+        width: 100%;
+    }
+    header {
+        height: 900px;
+    }
+
+
+
+
+
+
+    /* Navbar Styles */
+    .navbar,
+    .label-list {
+        flex-direction: column;
+    }
+    .label-list {
+        width: 100%;
+    }
+    .label-list li {
+        margin-top: 25px;
+    }
+
+
+
+
+
+
+
+
+    /* Banner */
+    .banner-title {
+        font-size: 45px;
+    }
+
+
+
+
+    /* Quick Features */
+    .quick-features {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .quick-features-info {
+        width: 100%;
+    }
+
+    .quick-features-images {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 25px;
+        width: 50%;
+    }
+
+    .quick-features-info {
+        margin-top: 10px;
+        padding-left: 0;
+    }
+
+
+
+
+
+
+    /* Features Details Section */
+    .features-details {
+        flex-direction: column;
+        height: 1500px;
+    }
+
+    .features-details-info {
+        width: 100%;
+    }
+
+    .feature-details-image {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: static;
+        margin-top: 25px;
+        width: 100%;
+    }
+
+    .btn-experience {
+        position: static;
+        margin-top: 50px;
+    }
+
+
+
+
+
+    /* Facts Section */
+    .facts {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+    }
+
+    .fact {
+        margin-bottom: 35px;
+    }
+
+
+
+
+
+
+    /* Sponsors Section */
+    .logos {
+        flex-direction: column;
+    }
+
+    .logos img {
+        margin-bottom: 35px;
+    }
+}

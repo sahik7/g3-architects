@@ -220,6 +220,16 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    transition:padding .5s, background-image .5s;
+}
+.fact:hover{
+    padding: 15px;
+    background-image:linear-gradient(45deg, #f14b18,#f3841d);
+    border: none;
+    color: white;
+}
+.fact:hover .fact-heading{
+    color: white;
 }
 .fact-heading{
     color: #424242;
